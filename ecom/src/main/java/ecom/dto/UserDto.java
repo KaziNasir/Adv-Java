@@ -1,10 +1,16 @@
 package ecom.dto;
 
+import ecom.domain.Address;
+import ecom.domain.AddressType;
 import ecom.domain.Gender;
 
+import javax.persistence.Column;
+import javax.persistence.FetchType;
+import javax.persistence.OneToMany;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 import java.time.LocalDate;
+import java.util.List;
 
 public class UserDto {
 
@@ -23,6 +29,12 @@ public class UserDto {
 
     @NotNull
     private Gender gender;
+
+    @NotNull
+    private String address;
+
+    @NotNull
+    private AddressType addressType;
 
     public String getUsername() {
         return username;
@@ -63,4 +75,21 @@ public class UserDto {
     public void setGender(Gender gender) {
         this.gender = gender;
     }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public AddressType getAddressType() {
+        return addressType;
+    }
+
+    public void setAddressType(AddressType addressType) {
+        this.addressType = addressType;
+    }
+
 }

@@ -42,6 +42,20 @@
 
     <br><br>
 
+    <label for="address">Address:</label>
+        <form:input path="address" id="address"/>
+        <form:errors path="address"/>
+
+        <br><br>
+
+        <label for="addressType">Type:</label>
+        <form:radiobutton path="addressType" id="addressType" value="HOME"/>HOME
+        <form:radiobutton path="addressType" id="addressType" value="OFFICE"/>OFFICE
+        <form:radiobutton path="addressType" id="addressType" value="LOCAL"/>LOCAL
+        <form:errors path="addressType"/>
+
+    <br><br>
+
     <input type="submit">
 
 </form:form>

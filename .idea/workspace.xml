@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3111343f-fcfd-4591-a4af-acafc95faddb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ecom/src/main/java/ecom/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/src/main/java/ecom/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom/src/main/java/ecom/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/src/main/java/ecom/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom/src/main/java/ecom/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/src/main/java/ecom/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom/src/main/java/ecom/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/src/main/java/ecom/domain/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom/src/main/java/ecom/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/src/main/java/ecom/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom/src/main/java/ecom/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/src/main/java/ecom/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom/src/main/webapp/WEB-INF/views/user/create-dto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/src/main/webapp/WEB-INF/views/user/create-dto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ecom/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PqbuL5ERNghiiBlYIiot0VJtXo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3111343f-fcfd-4591-a4af-acafc95faddb" name="Changes" comment="" />
+      <created>1684187780995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684187780995</updated>
+    </task>
+    <servers />
+  </component>
+</project>

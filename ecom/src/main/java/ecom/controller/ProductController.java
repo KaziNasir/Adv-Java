@@ -67,6 +67,15 @@ public class ProductController {
         return "order/create";
     }
 
+//    @RequestMapping("/order_store")
+//    public String store(@Valid @ModelAttribute("product") Product product, BindingResult bindingResult) throws SQLException {
+//        if (bindingResult.hasErrors()) {
+//            return "product/create";
+//        }
+//        productService.create(product);
+//        return "redirect:/products/list";
+//    }
+
     @RequestMapping("/store")
     public String store(@Valid @ModelAttribute("product") Product product, BindingResult bindingResult) throws SQLException {
         if (bindingResult.hasErrors()) {

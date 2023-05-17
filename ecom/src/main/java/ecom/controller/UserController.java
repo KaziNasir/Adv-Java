@@ -33,7 +33,7 @@ public class UserController {
     }
 
     @InitBinder
-    public void initBinder(WebDataBinder webDataBinder) {
+    public void initBinder(WebDataBinder webDataBinder) {//
         StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);
         webDataBinder.registerCustomEditor(String.class, stringTrimmerEditor);
 
@@ -72,6 +72,7 @@ public class UserController {
             return "user/create-dto";
         }
         userService.create(userDto);
+        System.out.println(userDto.getAddress());
         return "redirect:/users/list";
     }
 

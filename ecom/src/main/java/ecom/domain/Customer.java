@@ -28,7 +28,7 @@ public class Customer {
     @JoinColumn(name = "user_id")
     private User user;
 
-    @OneToMany(mappedBy = "customer", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "customer", fetch = FetchType.LAZY)
     private List<Address> addresses;
 
     @ManyToMany

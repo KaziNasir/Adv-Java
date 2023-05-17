@@ -16,5 +16,7 @@
 <a href="${pageContext.request.contextPath}/products/list">Products</a>
 |
 <a href="${pageContext.request.contextPath}/products/order_create">Create Order</a>
+
+<a href="${pageContext.request.contextPath}/customers/order_create">Create Order (Customer)</a>
 </body>
 </html>

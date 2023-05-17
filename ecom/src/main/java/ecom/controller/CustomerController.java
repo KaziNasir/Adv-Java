@@ -1,6 +1,7 @@
 package ecom.controller;
 
 import ecom.domain.Customer;
+import ecom.domain.Product;
 import ecom.domain.User;
 import ecom.service.CustomerService;
 import ecom.service.UserService;
@@ -45,6 +46,12 @@ public class CustomerController {
         return "customer/create";
     }
 
+    @RequestMapping("/order_create")
+    public String createOrder(Model model) {
+        model.addAttribute("product", new Product());
+        model.addAttribute("customers", customerService.list());
+        return "order/customer_create";
+    }
     @RequestMapping("/store")
     public String store(@Valid @ModelAttribute("customer") Customer customer, BindingResult bindingResult) throws SQLException {
         if (bindingResult.hasErrors()) {
